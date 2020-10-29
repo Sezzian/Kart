@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DBD056D2-86D3-EF01-908A-5B27533EA82F}</ProjectGuid>
+    <ProjectGuid>{6CA72542-AD66-28B5-81F5-135AAB81ECB6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -275,25 +275,25 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/System.IO.Abstractions.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/System.IO.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/PackageCache/com.unity.connect.share@1.2.0-preview.1/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/PackageCache/com.unity.connect.share@1.2.0-preview.1/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -656,125 +656,125 @@
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="MacBLAS">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/MacBLAS.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/MacBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Connect.Share.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Barracuda-editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Barracuda-editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Barracuda-editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Barracuda">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Barracuda.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Barracuda.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="iOSBLAS">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/iOSBLAS.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/iOSBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="BurstBLAS">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/BurstBLAS.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/BurstBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/Sebastian/Unity/Kart Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="KartGame.csproj">
-      <Project>{D8B572C8-0C0A-954A-1F24-C273021A416A}</Project>
+      <Project>{E0793F6C-A6EC-B60A-A5A0-7AE802A047A4}</Project>
       <Name>KartGame</Name>
     </ProjectReference>
     <ProjectReference Include="MLAgentsToolKit.csproj">
-      <Project>{E1D9E4A6-0DE5-A76D-E37F-0DF5CB5C5245}</Project>
+      <Project>{FED81E04-21C4-B61B-97F5-FC1C3B3B71BA}</Project>
       <Name>MLAgentsToolKit</Name>
     </ProjectReference>
     <ProjectReference Include="MLAgentsToolKit.Editor.csproj">
-      <Project>{A24C25AA-D304-1CE5-50AF-25201721600E}</Project>
+      <Project>{5B67A21A-C4B6-CDA1-747B-97784AAF76A5}</Project>
       <Name>MLAgentsToolKit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="KartGame.AI.csproj">
-      <Project>{FCAE0421-CA74-D79B-F059-869392998579}</Project>
+      <Project>{B34E95EA-09BE-37A1-4ECB-EBE5AF92192F}</Project>
       <Name>KartGame.AI</Name>
     </ProjectReference>
     <ProjectReference Include="KartGame.Editor.csproj">
-      <Project>{8A3F6C3A-5FA9-FDAE-FA18-917DB6DAE986}</Project>
+      <Project>{0BCE03B5-5059-F673-EEFC-CE52BAACF9BA}</Project>
       <Name>KartGame.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="KartGame.AI.Editor.csproj">
-      <Project>{617FB860-0468-0279-7C8D-D44ECC922E46}</Project>
+      <Project>{5E769334-441F-FB2B-39F9-FF31A0F562E0}</Project>
       <Name>KartGame.AI.Editor</Name>
     </ProjectReference>
   </ItemGroup>

@@ -27,6 +27,10 @@ public class Keyboard : MonoBehaviour
             rotation = new Vector3(0.0f, 0.0f, 0.0f);
         }
 
+        if (moveVertical < 0) {
+            rotation.y = -rotation.y;
+        }
+
         transform.Translate(velocity);
         transform.Rotate(rotation);
     }
