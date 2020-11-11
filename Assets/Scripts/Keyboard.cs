@@ -8,6 +8,8 @@ public class Keyboard : MonoBehaviour
     private float SpeedOffset = 0.1f;
 
     private float Speed;
+    private GameObject[] respawns;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,5 +35,23 @@ public class Keyboard : MonoBehaviour
 
         transform.Translate(velocity);
         transform.Rotate(rotation);
+
+        // Respawn the Kart at the nearest spawn point
+        if (Input.GetButtonDown("Jump")) {
+            respawns = GameObject.FindGameObjectsWithTag("Respawn");
+            GameObject closest = null;
+            float distance = Mathf.Infinity;
+            foreach (GameObject rs in respawns)
+            {
+                Vector3 diff = rs.transform.position - transform.position;
+                if (diff.sqrMagnitude < distance)
+                {
+                    distance = diff.sqrMagnitude;
+                    closest = rs;
+                }
+            }
+            transform.position = closest.transform.position;
+            transform.rotation = closest.transform.rotation;
+        }
     }
 }
