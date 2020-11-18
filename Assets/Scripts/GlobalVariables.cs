@@ -5,9 +5,9 @@ using UnityEngine;
 public class GlobalVariables : MonoBehaviour
 {
     // police car == false, taxi == true
-    public bool player;
-    public float speed;
-    public float sound;
+    public bool player = false;
+    public float speed = 1;
+    public float sound = 1;
     public bool win = false;
 
     public static GlobalVariables Instance;

@@ -1,5 +1,12 @@
 ﻿<Properties StartupConfiguration="{6CA72542-AD66-28B5-81F5-135AAB81ECB6}|">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Keyboard.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Rotator.cs" Line="11" Column="71" />
+      <File FileName="Assets/Scripts/Startup.cs" Line="34" Column="10" />
+      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="10" Column="27" />
+      <File FileName="Assets/Scripts/Keyboard.cs" Line="33" Column="49" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="788a6b2c-f85e-4259-ae26-b1f9bdf77789" />

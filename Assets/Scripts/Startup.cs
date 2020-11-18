@@ -11,19 +11,26 @@ public class Startup : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    { 
-        if (!GlobalVariables.Instance.player)
+    {
+        if (GlobalVariables.Instance != null)
         {
+            if (!GlobalVariables.Instance.player)
+            {
+                Taxi.SetActive(false);
+                PoliceCar.SetActive(true);
+                PoliceKart.GetComponent<AudioSource>().volume = GlobalVariables.Instance.sound;
+            }
+            else
+            {
+                PoliceCar.SetActive(false);
+                Taxi.SetActive(true);
+                TaxiKart.GetComponent<AudioSource>().volume = GlobalVariables.Instance.sound;
+            }
+        }
+        else {
             Taxi.SetActive(false);
             PoliceCar.SetActive(true);
-            PoliceKart.GetComponent<AudioSource>().volume = GlobalVariables.Instance.sound;
+            PoliceKart.GetComponent<AudioSource>().volume = 1;
         }
-        else
-        {
-            PoliceCar.SetActive(false);
-            Taxi.SetActive(true);
-            TaxiKart.GetComponent<AudioSource>().volume = GlobalVariables.Instance.sound;
-        }
-
     }
 }
