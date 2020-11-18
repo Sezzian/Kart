@@ -1,13 +1,15 @@
 ﻿<Properties StartupConfiguration="{6CA72542-AD66-28B5-81F5-135AAB81ECB6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Keyboard.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GlobalVariables.cs">
     <Files>
       <File FileName="Assets/Scripts/CameraController.cs" Line="25" Column="77" />
-      <File FileName="Assets/Scripts/Keyboard.cs" Line="39" Column="55" />
+      <File FileName="Assets/Scripts/Keyboard.cs" />
+      <File FileName="Assets/Scripts/SceneSwitcher.cs" Line="10" Column="40" />
+      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="20" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e36406c6-164b-4d80-86a1-a10f16061c17" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="788a6b2c-f85e-4259-ae26-b1f9bdf77789" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

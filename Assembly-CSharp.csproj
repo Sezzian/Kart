@@ -47,6 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.8.3.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
     <UnityVersion>2019.4.11f1</UnityVersion>
@@ -64,7 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\GlobalVariables.cs" />
     <Compile Include="Assets\Scripts\Keyboard.cs" />
+    <Compile Include="Assets\Scripts\SceneSwitcher.cs" />
     <Compile Include="Assets\Unity Kart Game\Mod Assets\ModResources\Scripts\Backend\TemplateEditorDetection.cs" />
     <Compile Include="Assets\Unity Kart Game\Mod Assets\ModResources\Scripts\BallGame\EmitParticlesOnBallBounce.cs" />
     <Compile Include="Assets\Unity Kart Game\Mod Assets\ModResources\Scripts\Kart\EmitParticlesOnKartBounce.cs" />
@@ -82,6 +85,7 @@
     <None Include="Assets\Unity Kart Game\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Unity Kart Game\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Unity Kart Game\Karting\README.txt" />
+    <None Include="Assets\TGU Skybox Pack\Readme.txt" />
     <None Include="Assets\Unity Kart Game\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Unity Kart Game\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Unity Kart Game\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
