@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Keyboard : MonoBehaviour
 {
-    public int PlayerSpeed = 1;
+    private float PlayerSpeed = 1;
     private float SpeedOffset = 0.1f;
 
     private float Speed;
@@ -13,7 +13,7 @@ public class Keyboard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      
+        PlayerSpeed = GlobalVariables.Instance.speed;
     }
 
     void FixedUpdate()

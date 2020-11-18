@@ -8,6 +8,7 @@ public class GlobalVariables : MonoBehaviour
     public bool player;
     public float speed;
     public float sound;
+    public bool win = false;
 
     public static GlobalVariables Instance;
 

@@ -26,4 +26,9 @@ public class SceneSwitcher : MonoBehaviour
 
         SceneManager.LoadScene("Main");
     }
+
+    public void GotoStart()
+    {
+        SceneManager.LoadScene("UI");
+    }
 }

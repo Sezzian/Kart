@@ -1129,8 +1129,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 1289463911}
   m_HandleRect: {fileID: 521602723}
   m_Direction: 0
-  m_MinValue: 0.1
-  m_MaxValue: 2
+  m_MinValue: 0
+  m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: 1
   m_OnValueChanged:
@@ -1197,6 +1197,7 @@ MonoBehaviour:
   player: 0
   speed: 0
   sound: 0
+  win: 0
 --- !u!1 &884919422
 GameObject:
   m_ObjectHideFlags: 0
