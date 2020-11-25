@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Endscreen.cs" />
     <Compile Include="Assets\Scripts\GlobalVariables.cs" />
     <Compile Include="Assets\Scripts\Keyboard.cs" />
+    <Compile Include="Assets\Scripts\NpcControl.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\SceneSwitcher.cs" />
     <Compile Include="Assets\Scripts\Startup.cs" />

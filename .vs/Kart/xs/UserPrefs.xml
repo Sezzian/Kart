@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{6CA72542-AD66-28B5-81F5-135AAB81ECB6}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Keyboard.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NpcControl.cs">
     <Files>
       <File FileName="Assets/Scripts/Rotator.cs" Line="11" Column="71" />
-      <File FileName="Assets/Scripts/Startup.cs" Line="34" Column="10" />
-      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="10" Column="27" />
-      <File FileName="Assets/Scripts/Keyboard.cs" Line="33" Column="49" />
+      <File FileName="Assets/Scripts/Startup.cs" />
+      <File FileName="Assets/Scripts/GlobalVariables.cs" />
+      <File FileName="Assets/Scripts/Keyboard.cs" />
+      <File FileName="Assets/Scripts/NpcControl.cs" Line="10" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="788a6b2c-f85e-4259-ae26-b1f9bdf77789" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="38793210-0cbb-4f58-9a4f-1c39c1c20967" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
