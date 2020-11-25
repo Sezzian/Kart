@@ -5,7 +5,7 @@
       <File FileName="Assets/Scripts/Startup.cs" />
       <File FileName="Assets/Scripts/GlobalVariables.cs" />
       <File FileName="Assets/Scripts/Keyboard.cs" />
-      <File FileName="Assets/Scripts/NpcControl.cs" Line="10" Column="9" />
+      <File FileName="Assets/Scripts/NpcControl.cs" Line="29" Column="76" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
