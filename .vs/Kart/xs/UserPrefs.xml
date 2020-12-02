@@ -2,15 +2,16 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NpcControl.cs">
     <Files>
       <File FileName="Assets/Scripts/Rotator.cs" Line="11" Column="71" />
-      <File FileName="Assets/Scripts/Startup.cs" />
-      <File FileName="Assets/Scripts/GlobalVariables.cs" />
-      <File FileName="Assets/Scripts/Keyboard.cs" />
-      <File FileName="Assets/Scripts/NpcControl.cs" Line="29" Column="76" />
+      <File FileName="Assets/Scripts/Startup.cs" Line="41" Column="39" />
+      <File FileName="Assets/Scripts/GlobalVariables.cs" Line="16" Column="17" />
+      <File FileName="Assets/Scripts/Keyboard.cs" Line="18" Column="37" />
+      <File FileName="Assets/Scripts/NpcControl.cs" Line="15" Column="31" />
+      <File FileName="Assets/Scripts/SceneSwitcher.cs" Line="28" Column="70" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="38793210-0cbb-4f58-9a4f-1c39c1c20967" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="28cb7ed5-7d08-4b69-b65e-1ff3b5142e00" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

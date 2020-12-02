@@ -6,8 +6,9 @@ public class GlobalVariables : MonoBehaviour
 {
     // police car == false, taxi == true
     public bool player = false;
-    public float speed = 1;
-    public float sound = 1;
+    public float speed = 1f;
+    public float sound = 1f;
+    public float difficulty = 1f;
     public bool win = false;
 
     public static GlobalVariables Instance;

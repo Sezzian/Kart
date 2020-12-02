@@ -2,23 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Keyboard : MonoBehaviour
 {
     private float PlayerSpeed = 1;
     private float SpeedOffset = 0.1f;
+    private float SpeedOffset0 = 0.1f;
 
     private float Speed;
     private GameObject[] respawns;
+    private int check = 0;
 
     public Text PickUpText;
+    public GameObject[] checkpoints;
 
     // Start is called before the first frame update
     void Start()
     {
         if (GlobalVariables.Instance != null)
         {
-            PlayerSpeed = GlobalVariables.Instance.speed;
+            PlayerSpeed = GlobalVariables.Instance.speed / GlobalVariables.Instance.difficulty;
         }
         else {
             PlayerSpeed = 1;
@@ -27,21 +31,24 @@ public class Keyboard : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("PickUp"))
+        if (other.gameObject.CompareTag("PickUp") && gameObject.tag == "Player")
         {
             other.gameObject.SetActive(false);
-            float random = Random.Range(0.0f,3.0f);
+            float random = Random.Range(0.0f, 3.0f);
 
             if (random < 1)
             {
-                SpeedOffset = 0.2f;
+                SpeedOffset = 2f * SpeedOffset0;
                 PickUpText.text = "Double Speed";
             }
-            if (random > 2) {
-                SpeedOffset = 0.1f;
+            if (random > 2)
+            {
+                SpeedOffset = 0.5f * SpeedOffset0;
                 PickUpText.text = "Half Speed";
             }
-            if (random >= 1 && random <= 2) {
+            if (random >= 1 && random <= 2)
+            {
+                SpeedOffset = SpeedOffset0;
                 respawns = GameObject.FindGameObjectsWithTag("Respawn");
                 GameObject closest = null;
                 float distance = Mathf.Infinity;
@@ -58,8 +65,21 @@ public class Keyboard : MonoBehaviour
                 transform.rotation = closest.transform.rotation;
                 PickUpText.text = "Respawn";
             }
-            
+
         }
+        else if (other.gameObject.CompareTag("Finish") && gameObject.CompareTag("Player"))
+        {
+            if (other.transform == checkpoints[check].transform)
+            {
+                check++;
+            }
+            if (check == 3)
+            {
+                GlobalVariables.Instance.win = true;
+                SceneManager.LoadScene("End");
+            }
+        }
+
     }
 
     void FixedUpdate()

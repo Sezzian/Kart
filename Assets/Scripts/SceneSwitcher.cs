@@ -8,12 +8,14 @@ public class SceneSwitcher : MonoBehaviour
 {
     public Slider SpeedSlider;
     public Slider SoundSlider;
+    public Slider DifficultySlider;
 
     public void GotoMainPolice()
     {
         GlobalVariables.Instance.player = false;
         GlobalVariables.Instance.speed = SpeedSlider.value;
         GlobalVariables.Instance.sound = SoundSlider.value;
+        GlobalVariables.Instance.difficulty = DifficultySlider.value;
 
         SceneManager.LoadScene("Main");
     }
@@ -23,6 +25,7 @@ public class SceneSwitcher : MonoBehaviour
         GlobalVariables.Instance.player = true;
         GlobalVariables.Instance.speed = SpeedSlider.value;
         GlobalVariables.Instance.sound = SoundSlider.value;
+        GlobalVariables.Instance.difficulty = DifficultySlider.value;
 
         SceneManager.LoadScene("Main");
     }
