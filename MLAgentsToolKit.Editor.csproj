@@ -665,11 +665,11 @@
     <Reference Include="Barracuda">
       <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/Barracuda.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>/Users/Sebastian/Unity/Kart/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>

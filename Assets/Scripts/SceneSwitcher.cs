@@ -10,6 +10,7 @@ public class SceneSwitcher : MonoBehaviour
     public Slider SoundSlider;
     public Slider DifficultySlider;
 
+    // Save all slider values and go to the main scene
     public void GotoMainPolice()
     {
         GlobalVariables.Instance.player = false;
@@ -19,7 +20,7 @@ public class SceneSwitcher : MonoBehaviour
 
         SceneManager.LoadScene("Main");
     }
-
+    // save all slider values and go to the main scene
     public void GotoMainTaxi()
     {
         GlobalVariables.Instance.player = true;
@@ -29,7 +30,7 @@ public class SceneSwitcher : MonoBehaviour
 
         SceneManager.LoadScene("Main");
     }
-
+    // go back to the start scene
     public void GotoStart()
     {
         SceneManager.LoadScene("UI");

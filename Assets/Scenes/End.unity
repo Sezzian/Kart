@@ -531,6 +531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpeedSlider: {fileID: 0}
   SoundSlider: {fileID: 0}
+  DifficultySlider: {fileID: 0}
 --- !u!4 &660798238
 Transform:
   m_ObjectHideFlags: 0

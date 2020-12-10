@@ -15,12 +15,13 @@ public class NpcControl : MonoBehaviour
     private Vector3 direction;
     private float speed0;
 
-    // Start is called before the first frame update
+    // Initialize at the first waypoint
     void Start()
     {
         navAgent = this.GetComponent<NavMeshAgent>();
         navAgent.SetDestination(waypoints[0].transform.position);
 
+        // Set speed of the NPC according to the chosen difficulty level
         if (GlobalVariables.Instance != null)
         {
             navAgent.speed = GlobalVariables.Instance.speed*navAgent.speed*GlobalVariables.Instance.difficulty;
@@ -28,11 +29,12 @@ public class NpcControl : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+    // Set direction of the NPC to the next waypoint
     void Update()
     {
         direction = waypoints[counter].transform.position - this.transform.position;
 
+        // If the NPC is close to a waypoint, go to the next waypoint
         if (direction.magnitude < MinDist && counter < waypoints.Length-1)
         {
             counter = counter + 1;
@@ -43,19 +45,25 @@ public class NpcControl : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // Check if NPC hit a collectable gameobject
         if (other.gameObject.CompareTag("PickUp") && gameObject.CompareTag("AI"))
         {
+            // Deactivate the collectable
             other.gameObject.SetActive(false);
             float random = Random.Range(0.0f, 3.0f);
 
+            // choose wich action occurs based on a random number
+            // double speed
             if (random < 1)
             {
                 navAgent.speed = speed0 * 2;
             }
+            // half speed 
             else if (random > 2)
             {
                 navAgent.speed = speed0 / 2;
             }
+            // respawn 
             else if (random >= 1 && random <= 2)
             {
                 GameObject[] respawns;
@@ -77,12 +85,15 @@ public class NpcControl : MonoBehaviour
             }
 
         }
+        // check if NPC is at a checkpoint 
         else if (other.gameObject.CompareTag("Finish") && gameObject.CompareTag("AI"))
         {
+            // NPC has to go through all checkpoints befor he can pass the finish line
             if (other.transform == checkpoints[check].transform)
             {
                 check++;
             }
+            // set the winning variable to false if the NPC arrives first at the finish line
             if (check == 3)
             {
                 GlobalVariables.Instance.win = false;

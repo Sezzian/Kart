@@ -275,18 +275,6 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="System.IO.Abstractions">
-      <HintPath>/Users/Sebastian/Unity/Kart/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/System.IO.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>/Users/Sebastian/Unity/Kart/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Grpc.Core">
-      <HintPath>/Users/Sebastian/Unity/Kart/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Interactive.Async">
-      <HintPath>/Users/Sebastian/Unity/Kart/Assets/Unity Kart Game/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
-    </Reference>
     <Reference Include="Google.Protobuf">
       <HintPath>/Users/Sebastian/Unity/Kart/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
@@ -679,10 +667,6 @@
     <ProjectReference Include="KartGame.csproj">
       <Project>{E0793F6C-A6EC-B60A-A5A0-7AE802A047A4}</Project>
       <Name>KartGame</Name>
-    </ProjectReference>
-    <ProjectReference Include="MLAgentsToolKit.csproj">
-      <Project>{FED81E04-21C4-B61B-97F5-FC1C3B3B71BA}</Project>
-      <Name>MLAgentsToolKit</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Rotator : MonoBehaviour
 {
     
-    // Update is called once per frame
+    // Rotate collectable objects to look more fance
     void Update()
     {
         transform.Rotate(Vector3.up * 45 * Time.deltaTime, Space.World);

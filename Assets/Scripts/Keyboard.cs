@@ -17,7 +17,7 @@ public class Keyboard : MonoBehaviour
     public Text PickUpText;
     public GameObject[] checkpoints;
 
-    // Start is called before the first frame update
+    // Set the player speed according to the slider values from the main menu
     void Start()
     {
         if (GlobalVariables.Instance != null)
@@ -31,24 +31,31 @@ public class Keyboard : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        // Check if this game object has collided with a collectible game object
         if (other.gameObject.CompareTag("PickUp") && gameObject.tag == "Player")
         {
+            // deactivate the collectible
             other.gameObject.SetActive(false);
             float random = Random.Range(0.0f, 3.0f);
 
+            // choose with action happens based on a generated random number
+            // double speed
             if (random < 1)
             {
                 SpeedOffset = 2f * SpeedOffset0;
                 PickUpText.text = "Double Speed";
             }
+            // half speed
             if (random > 2)
             {
                 SpeedOffset = 0.5f * SpeedOffset0;
                 PickUpText.text = "Half Speed";
             }
+            // instant respawn
             if (random >= 1 && random <= 2)
             {
                 SpeedOffset = SpeedOffset0;
+                // itterate over all respawn points to find the closest one
                 respawns = GameObject.FindGameObjectsWithTag("Respawn");
                 GameObject closest = null;
                 float distance = Mathf.Infinity;
@@ -61,18 +68,21 @@ public class Keyboard : MonoBehaviour
                         closest = rs;
                     }
                 }
+                // respawn at the closest respawn point
                 transform.position = closest.transform.position;
                 transform.rotation = closest.transform.rotation;
                 PickUpText.text = "Respawn";
             }
 
         }
+        // check if this game object arrived at the finish line 
         else if (other.gameObject.CompareTag("Finish") && gameObject.CompareTag("Player"))
         {
             if (other.transform == checkpoints[check].transform)
             {
                 check++;
             }
+            // set the winnig variable to true
             if (check == 3)
             {
                 GlobalVariables.Instance.win = true;
@@ -82,6 +92,7 @@ public class Keyboard : MonoBehaviour
 
     }
 
+    // Player movement from keyboard
     void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
